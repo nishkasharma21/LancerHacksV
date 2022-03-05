@@ -1,0 +1,37 @@
+<!-- THIS IS A TEST FORM. NISHKA WILL MAKE THE REAL FORM ON REACT.JS-->
+<!DOCTYPE html> 
+	<html> 
+		<head>
+			<title> Test Form </title>
+			<link rel="Stylesheet" href="NFT.css"/>
+		</head>
+
+		<body> 
+			<form id="uploadPhotoForm">
+				<input id="ImageFile" type="file" accept="image/*" name="Image" required>
+				<!--<input name="Photo-Theme" placeholder="Photo Theme" type="text" id="PhotoTheme" required>-->
+
+				<label for="theme">Theme of Image:</label>
+  				<select id="PhotoTheme" name="Photo-Theme">
+   					 <option value="Animals">Animals</option>
+    				<option value="Environment">Climate</option>
+    				<option value="Food Insecurity and Wastage">Food Insecurity and Wastage</option>
+    				<option value="Other">Other</option>
+  				</select>
+
+				<button id="SubmitButton" type="submit"> Click to save fname </button>
+				<p id="updates"></p>
+				<button onclick="read()"> READ</button>
+				<br>
+				<!--<div id="divToAppend" style="overflow: hidden; display: flex; justify-content:space-around;"> -->
+				<div id="divToAppend" style="overflow: hidden;display: flex; flex-wrap: wrap; background-color: grey; max-width:500px; max-height:500px;" ></div>
+
+			</form>
+
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+  		<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+		<script src="firebase.js"></script>
+		</body>
+
+	</html>
+

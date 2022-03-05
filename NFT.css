@@ -1,0 +1,22 @@
+.indivNFT{
+    width: 100%; 
+    height: 100%;
+    
+	/*display: inline-block;*/
+	object-fit: cover;
+	padding: 0px;
+	
+}
+
+.outerDivForEach{
+	/*margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 1px;
+	margin-left: 1px;*/
+	border: 2px solid black;
+	object-fit: cover;
+	width: 121px;
+	height: 67px;
+}
+
+/* 28 images per nft*/
